@@ -1,0 +1,11 @@
+<div *ngIf="loggedInUser" class="user-info">
+  <p><strong>Usuario:</strong> {{ loggedInUser }}</p>
+  <p><strong>Hora de login:</strong> {{ loginTime }}</p>
+</div>
+
+<div *ngIf="!loggedInUser">
+  <input [(ngModel)]="username" placeholder="Usuario">
+  <input [(ngModel)]="password" type="password" placeholder="Contraseña">
+  <button (click)="login()">Entrar</button>
+  <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+</div>

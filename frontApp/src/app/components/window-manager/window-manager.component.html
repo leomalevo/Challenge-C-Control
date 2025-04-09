@@ -1,0 +1,17 @@
+<div *ngFor="let win of windows" 
+     class="window"
+     [style.left.px]="win.x" 
+     [style.top.px]="win.y" 
+     [style.width.px]="win.width" 
+     [style.height.px]="win.height"
+     (mousedown)="startDrag(win, $event)">
+  
+  <div class="window-header">
+    <span>Ventana {{ win.id }}</span>
+    <div class="window-controls">
+      <button class="control-btn" (click)="resizeWindow(win, win.width + 50, win.height + 50)">🗖</button>
+      <button class="control-btn" (click)="resizeWindow(win, win.width - 50, win.height - 50)">🗕</button>
+      <button class="control-btn close" (click)="closeWindow(win)">✖</button>
+    </div>
+  </div>
+</div>
