@@ -1,7 +1,7 @@
 # Challenge-C-Control
 Aplicacion Angular que manipula 2 ventanas y mediante sockets se replica el movimiento en 2 instancias notepad.exe abiertas (mediante .net)
 
--Este repositorio incluyen ambas aplicaciones Angular y .Net. La aplicacion Angular se ubica en la carpeta "FrontApp". La aplicacion .Net se abre con la solution "WebApplication3.sln"
+Este repositorio incluyen ambas aplicaciones Angular y .Net. La aplicacion Angular se ubica en la carpeta "FrontApp". La aplicacion .Net se abre con la solution "WebApplication3.sln"
 
 - Una vez bajado el proyecto completo, actualizar los packages (npm install) y luego correr la aplicacion angular con "ng serve". Abrirá la aplicacion sobre http://localhost:4200/
 - Abrir la solucion WebAppplication3, actualizar los paquetes nuget y luego ejecutar la aplicacion  mediante el boton de run. Abrirá en la direccion http://localhost:5000/
