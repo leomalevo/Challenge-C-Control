@@ -11,8 +11,8 @@ Este repositorio incluyen ambas aplicaciones Angular y .Net. La aplicacion Angul
 - Si se modifica el tamaño, se arrastra o se cierra la ventana en browser, se replica en las instancias de notepad.exe abiertas por el backend. No permite el solapamiento de las ventanas
 
 - DETALLES:
-	-Se instaló SWAGGER y muestra los endpoints de la API Autenticacion (http://localhost:5000/swagger/index.html)
-	-Se pueden crear mas usuarios mediante la API y se pueden probar en el login
-  -Se han agregado comentarios en diferentes bloques de codigo a modo de documentación.
-	-Por un problema técnico no pude instalar SQLEXPRESS, y a falta de tiempo decidí suplir dicha falta con un dbContext en memoria para almacenar los usuarios. No almacena los estados de las ventanas
-	-Entre Backend y Frontend se muestra los mensajes recibidos a modo de logs.
+	- Se instaló SWAGGER y muestra los endpoints de la API Autenticacion (http://localhost:5000/swagger/index.html)
+	- Se pueden crear mas usuarios mediante la API y se pueden probar en el login
+	- Se han agregado comentarios en diferentes bloques de codigo a modo de documentación.
+	- Por un problema técnico no pude instalar SQLEXPRESS, y a falta de tiempo decidí suplir dicha falta con un dbContext en memoria para almacenar los usuarios. No almacena los estados de las ventanas
+	- Entre Backend y Frontend se muestra los mensajes recibidos a modo de logs.
