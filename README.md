@@ -16,3 +16,4 @@ Este repositorio incluyen ambas aplicaciones Angular y .Net. La aplicacion Angul
 	- Se han agregado comentarios en diferentes bloques de codigo a modo de documentación.
 	- Por un problema técnico no pude instalar SQLEXPRESS y a falta de tiempo decidí suplirlo con un dbContext en memoria para almacenar los usuarios. No almacena los estados de las ventanas
 	- Entre Backend y Frontend se muestra los mensajes recibidos a modo de logs.
+   	- Se agregó un screenshot a modo de muestra de como se ve la aplicacion funcionando (Screenshot.jpg)
